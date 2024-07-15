@@ -86,11 +86,11 @@ branding, and allowing for creativity and self-expression.
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Past projects
-| SW2 | https://github.com/noaaaa2/WD-MAAT.git    |
-| SW3 | https://github.com/noaaaa2/WD-SW3.git     |
-| SW4 | https://github.com/noaaaa2/WD-SW4.git     |
-| HO  | https://github.com/noaaaa2/WD-MIDTERMS.git|
-| HO2 | https://github.com/noaaaa2/WD-HO2.git     |
+| SW2 | https://github.com/noaaaa2/WD-MAAT.git    | <br>
+| SW3 | https://github.com/noaaaa2/WD-SW3.git     | <br>
+| SW4 | https://github.com/noaaaa2/WD-SW4.git     | <br>
+| HO  | https://github.com/noaaaa2/WD-MIDTERMS.git| <br>
+| HO2 | https://github.com/noaaaa2/WD-HO2.git     | <br>
 
 ### WakaTime
 https://wakatime.com/@noaaaa2
