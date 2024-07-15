@@ -10,7 +10,7 @@
 
 .navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
     top: 100px;
 }
@@ -28,6 +28,15 @@
 }
 
 .about {
+    font-family: navigation-font;
+    position: relative;
+    text-decoration: none;
+    color: gray;
+    right: 7%;
+    font-size: 13px;
+}
+
+.website {
     font-family: navigation-font;
     position: relative;
     text-decoration: none;
@@ -50,6 +59,8 @@
     text-decoration: none;
     color: gray;
     font-size: 13px;
+    position: relative;
+    right: 4%;
 }
 
 .title {
@@ -58,6 +69,8 @@
     font-family: title-font;
     font-weight: bold;
     color: #F9B764;
+    position: relative;
+    right: 8%;
     letter-spacing: 5px;
 }
 
@@ -147,6 +160,11 @@
     top: 20%;
     position: relative;
     left: 3%;
+    transition: all .2s;
+}
+
+.container-one:hover {
+    transform: scale(1.2);
 }
 
 .college {
@@ -175,6 +193,11 @@
     top: 10%;
     position: relative;
     left: 23%;
+    transition: all .2s;
+}
+
+.container-two:hover {
+    transform: scale(1.2);
 }
 
 .shs {
@@ -203,6 +226,11 @@
     top: 5%;
     position: relative;
     left: 48%;
+    transition: all .2s;
+}
+
+.container-three:hover {
+    transform: scale(1.2);
 }
 
 .jhs {
@@ -231,6 +259,11 @@
     bottom: 5%;
     position: relative;
     left: 72%;
+    transition: all .2s;
+}
+
+.container-four:hover {
+    transform: scale(1.2);
 }
 
 .elem {
@@ -264,4 +297,338 @@
     top: 4%;
     color: white;
     letter-spacing: 3px;
+}
+
+.photoshop {
+    position: relative;
+    top: 20%;
+    width: 8%;
+    left: 10%;
+    transition: all 1.5s;
+}
+
+.photoshop:hover {
+    transform: rotateY(360deg);
+}
+
+.illustrator {
+    position: relative;
+    top: 25%;
+    width: 8%;
+    left: 10%;
+    transition: all 1.5s;
+}
+
+.illustrator:hover {
+    transform: rotateY(360deg);
+}
+
+.css {
+    position: relative;
+    top: 30%;
+    width: 8%;
+    left: 10%;
+    transition: all 1.5s;
+}
+
+.css:hover {
+    transform: rotateY(360deg);
+}
+
+.html {
+    position: relative;
+    bottom: 30%;
+    width: 8%;
+    left: 55%;
+    transition: all 1.5s;
+}
+
+.html:hover {
+    transform: rotateY(360deg);
+}
+
+.c {
+    position: relative;
+    width: 8%;
+    bottom: 23%;
+    left: 55%;
+    transition: all 1.5s;
+}
+
+.c:hover {
+    transform: rotateY(360deg);
+}
+
+.progress-one {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    top: 10%;
+    left: 23%;
+}
+  
+.progress-value-one {
+    animation: load-one 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+}
+
+.progress-two {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    top: 14%;
+    left: 23%;
+}
+  
+.progress-value-two {
+    animation: load-two 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+}
+
+.progress-three {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    top: 18%;
+    left: 23%;
+}
+  
+.progress-value-three {
+    animation: load-three 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+}
+
+.progress-four {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    bottom: 40%;
+    left: 70%;
+}
+  
+.progress-value-four {
+    animation: load-four 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+}
+
+.progress-five {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    bottom: 33%;
+    left: 70%;
+}
+  
+.progress-value-five {
+    animation: load-five 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+}
+  
+@keyframes load-one {
+    0% { width: 0; }
+    100% { width: 85%; }
+  }
+
+@keyframes load-two {
+    0% { width: 0; }
+    100% { width: 55%; }
+}
+
+@keyframes load-three {
+    0% { width: 0; }
+    100% { width: 70%; }
+}
+
+@keyframes load-four {
+    0% { width: 0; }
+    100% { width: 70%; }
+}
+
+@keyframes load-five {
+    0% { width: 0; }
+    100% { width: 58%; }
+}
+
+.contact {
+    font-family: title-font;
+    text-align: center;
+    position: relative;
+    top: 4%;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.page-three {
+    width: 100%;
+    height: 75vh;
+    background-color: #F9B764;
+}
+
+.phone-call {
+    width: 13%;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    opacity: 60%;
+    transition: all .2s;
+}
+
+.phone-call:hover {
+    transform: rotate(30deg);
+}
+
+.email {
+    width: 13%;
+    position: relative;
+    left: 44%;
+    bottom: 14%;
+    opacity: 60%;
+    transition: all .2s;
+}
+
+.email:hover {
+    transform: rotate(30deg);
+}
+
+.address {
+    width: 13%;
+    position: relative;
+    left: 75%;
+    bottom: 58%;
+    opacity: 60%;
+    transition: all .2s;
+}
+.address:hover {
+    transform: rotate(30deg);
+}
+
+.contact-number {
+    position: relative;
+    top: 40%;
+    left: 8%;
+    font-family: title-font;
+    color: rgb(0, 0, 0);
+}
+
+.contact-number::before {
+    content: '';
+    position: absolute;
+    width: 18%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: -1px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  
+.contact-number:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+.email-address {
+    position: relative;
+    left: 37%;
+    bottom: 1%;
+    font-family: title-font;
+    color: rgb(0, 0, 0);
+}
+
+.email-address::before {
+    content: '';
+    position: absolute;
+    width: 27%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: -1px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+  
+  .email-address:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.address-text {
+    bottom: 42%;
+    left: 76%;
+    position: relative;
+    font-family: title-font;
+    color: rgb(0, 0, 0);
+}
+
+.address-text::before {
+    content: '';
+    position: absolute;
+    width: 12%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: -1px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+  
+.address-text:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
 }

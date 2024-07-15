@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-page {
+    overflow: hidden;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+}
+
+@font-face {
+    font-family: navigation-font;
+    src: url(../js/Proxima\ Nova\ Font.otf);
+}
+
+.home {
+    font-family: navigation-font;
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+}
+
+.about {
+    font-family: navigation-font;
+    position: relative;
+    text-decoration: none;
+    color: gray;
+    right: 7%;
+    font-size: 13px;
+}
+
+.website {
+    font-family: navigation-font;
+    position: relative;
+    text-decoration: none;
+    color: gray;
+    right: 15%;
+    font-size: 13px;
+}
+
+.resume {
+    font-family: navigation-font;
+    text-decoration: none;
+    position: relative;
+    left: 15%;
+    color: gray;
+    font-size: 13px;
+}
+
+.work {
+    font-family: navigation-font;
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    position: relative;
+    right: 4%;
+}
+
+.title {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: title-font;
+    font-weight: bold;
+    color: #F9B764;
+    position: relative;
+    right: 8%;
+    letter-spacing: 5px;
+}
+
+@font-face {
+    font-family: title-font;
+    src: url(../js/Gotham-Medium.otf);
+    font-weight: normal;
+}
+
+.container-one {
+    width: 100%;
+    height: 140vh;
+    background: #06489b;
+    position: relative;
+}
+
+.repo-one {
+    border-radius: 25px;
+    border: 1px solid #F9B764;
+    background: #F9B764;
+    top: 12%;
+    position: relative;
+    height: 15vh;
+    width: 45%;
+    left: 8%;
+    text-align: center;
+    place-items: center;
+}
+
+.past-projects {
+    font-family: title-font;
+    text-align: center;
+    position: relative;
+    top: 4%;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.seatwork-two {
+    text-decoration: none;
+    position: relative;
+    font-family: title-font;
+    font-size: 80px;
+    box-shadow: inset 0 0 0 0 #06489b;
+    color: #ffffff;
+	padding: 0 .25rem;
+	margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.description-one {
+    font-family: title-font;
+    position: relative;
+    top: 6px;
+    font-size: 20px;
+}
+
+.repo-two {
+    border-radius: 25px;
+    border: 1px solid #F9B764;
+    background: #F9B764;
+    top: 18%;
+    position: relative;
+    height: 15vh;
+    width: 45%;
+    left: 45%;
+    text-align: center;
+}
+
+.hands-on {
+    text-decoration: none;
+    position: relative;
+    font-family: title-font;
+    font-size: 80px;
+    color: white;
+    box-shadow: inset 0 0 0 0 #06489b;
+    color: #ffffff;
+	padding: 0 .25rem;
+	margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.description-two {
+    font-family: title-font;
+    position: relative;
+    top: 6px;
+    font-size: 20px;
+}
+
+.repo-three {
+    border-radius: 25px;
+    border: 1px solid #F9B764;
+    background: #F9B764;
+    top: 23%;
+    position: relative;
+    height: 15vh;
+    width: 45%;
+    left: 8%;
+    text-align: center;
+}
+
+.seatwork-three {
+    text-decoration: none;
+    position: relative;
+    font-family: title-font;
+    font-size: 80px;
+    color: white;
+    box-shadow: inset 0 0 0 0 #06489b;
+    color: #ffffff;
+	padding: 0 .25rem;
+	margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.description-three {
+    font-family: title-font;
+    position: relative;
+    top: 3px;
+    font-size: 14px;
+}
+
+.repo-four {
+    border-radius: 25px;
+    border: 1px solid #F9B764;
+    background: #F9B764;
+    top: 29%;
+    position: relative;
+    height: 15vh;
+    width: 45%;
+    left: 45%;
+    text-align: center;
+}
+
+.hands-on-two {
+    text-decoration: none;
+    position: relative;
+    font-family: title-font;
+    font-size: 80px;
+    color: white;
+    box-shadow: inset 0 0 0 0 #06489b;
+    color: #ffffff;
+	padding: 0 .25rem;
+	margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.description-four {
+    font-family: title-font;
+    position: relative;
+    top: 6px;
+    font-size: 18px;
+}
+
+.repo-five {
+    border-radius: 25px;
+    border: 1px solid #F9B764;
+    background: #F9B764;
+    top: 35%;
+    position: relative;
+    height: 15vh;
+    width: 45%;
+    left: 8%;
+    text-align: center;
+}
+
+.seatwork-four {
+    text-decoration: none;
+    position: relative;
+    font-family: title-font;
+    font-size: 80px;
+    color: white;
+    box-shadow: inset 0 0 0 0 #06489b;
+    color: #ffffff;
+	padding: 0 .25rem;
+	margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.description-five {
+    font-family: title-font;
+    position: relative;
+    top: 3px;
+    font-size: 19px;
+}
+
+.seatwork-two:hover {
+    color: #F9B764;
+    box-shadow: inset 600px 0 0 0 #ffffff;
+}
+
+.hands-on:hover {
+    color: #F9B764;
+    box-shadow: inset 600px 0 0 0 #ffffff;
+}
+
+.seatwork-three:hover {
+    color: #F9B764;
+    box-shadow: inset 600px 0 0 0 #ffffff;
+}
+
+.hands-on-two:hover {
+    color: #F9B764;
+    box-shadow: inset 600px 0 0 0 #ffffff;
+}
+
+.seatwork-four:hover {
+    color: #F9B764;
+    box-shadow: inset 600px 0 0 0 #ffffff;
+}
+
+
+
+

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+.home-page {
     overflow: hidden;
 }
 
@@ -80,51 +80,28 @@ body {
     font-weight: normal;
 }
 
-.hero-section {
-    background: #F9B764;
+.container-one {
     width: 100%;
-    height: 70vh;
-    position: relative;
+    height: 100vh;
+    background-color:#06489b;
 }
 
-.greetings {
+.about-website {
     font-family: title-font;
-    color: white;
+    text-align: center;
     position: relative;
-    font-size: 60px;
-    top: 30%;
-    left: 10%;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-.greetings:hover {
-    color: #06489b ;
-    box-shadow: inset 500px 0 0 0 #ffffff;
+    top: 14%;
+    color: white;
+    letter-spacing: -2px;
+    font-size: 65px;
 }
 
 .description-one {
+    text-align: center;
+    position: relative;
+    top: 243px;
+    font-size: 33px;
+    line-height: 70px;
     font-family: title-font;
     color: white;
-    font-weight: lighter;
-    position: relative;
-    line-height: 54px;
-    top: 35%;
-    left: 10%;
-    font-size: 40px;
-}
-
-.pic {
-    position: relative;
-    left: 72%;
-    bottom: 150.6%;
-    width: 28%;
-}
-
-.container-one {
-    width: 28%;
-    height: 70vh;
-    background: rgba(31, 31, 31, 0.123);
-    position: relative;
-    left: 72%;
-    bottom: 43.1%;
 }
