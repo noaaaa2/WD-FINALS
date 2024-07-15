@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-.home-page {
-    overflow: hidden;
+body {
+    overflow-x: hidden;
 }
 
 .navigation {
@@ -631,4 +631,64 @@
 .address-text:hover::before {
     transform-origin: left;
     transform: scaleX(1);
+}
+
+.botnav {
+    border-top: 1px solid rgb(228, 228, 228);
+    width: 120rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+}
+
+.copyright {
+    position: relative;
+    left: 2%;
+    top: 20px;
+}
+
+.tc {
+    color: rgba(53, 53, 53, 0.733);
+    position: relative;
+    left: 6%;
+    top: 20px;
+}
+
+.privacy {
+    color: rgba(53, 53, 53, 0.733);
+    position: relative;
+    left: 8%;
+    top: 20px;
+}
+
+.accessibility {
+    color: rgba(53, 53, 53, 0.733);
+    position: relative;
+    left: 10%;
+    top: 20px;
+}
+
+.facebook {
+    color: rgba(24, 119, 242);
+    position: relative;
+    font-size: 30px;
+    left: 60%;
+    top: 20px;
+}
+
+.instagram {
+    color: rgba(193, 53, 132);
+    position: relative;
+    font-size: 30px;
+    left: 61%;
+    top: 20px;
+}
+
+.x {
+    position: relative;
+    font-size: 30px;
+    left: 62%;
+    top: 20px;
 }

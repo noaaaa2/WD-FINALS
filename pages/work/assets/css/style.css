@@ -281,6 +281,66 @@
     box-shadow: inset 600px 0 0 0 #ffffff;
 }
 
+.botnav {
+    border-top: 1px solid rgb(228, 228, 228);
+    width: 120rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+}
+
+.copyright {
+    position: relative;
+    left: 2%;
+    top: 10px;
+}
+
+.tc {
+    color: rgba(53, 53, 53, 0.733);
+    position: relative;
+    left: 6%;
+    top: 10px;
+}
+
+.privacy {
+    color: rgba(53, 53, 53, 0.733);
+    position: relative;
+    left: 8%;
+    top: 10px;
+}
+
+.accessibility {
+    color: rgba(53, 53, 53, 0.733);
+    position: relative;
+    left: 10%;
+    top: 10px;
+}
+
+.facebook {
+    color: rgba(24, 119, 242);
+    position: relative;
+    font-size: 30px;
+    left: 60%;
+    top: 10px;
+}
+
+.instagram {
+    color: rgba(193, 53, 132);
+    position: relative;
+    font-size: 30px;
+    left: 61%;
+    top: 10px;
+}
+
+.x {
+    position: relative;
+    font-size: 30px;
+    left: 62%;
+    top: 10px;
+}
+
 
 
 
